@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Aplicación Asistencias - Crear Curso</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+<body>
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">AppAsistencia</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="crear-curso.html">Crear Curso</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="listar-cursos.html">Ver Cursos</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <br>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+            <form id="form" action="">
+              <div class="form-group">
+                <label for="nombre">Nombre del curso</label>
+                <input type="text" class="form-control" id="nombre" placeholder="Ejemplo: Matemáticas 4ºB - 2019" required>
+              </div>
+              <div class="form-group">
+                <label for="estudiantes">Estudiantes del curso</label>
+                <textarea class="form-control" id="estudiantes" rows="6" placeholder="Ingresa una lista de nombres separados por salto de línea" required></textarea>
+              </div>
+              <button type="submit" id="submit" class="btn btn-info">Crear Nuevo Curso</button>
+            </form>
+        </div>
+      </div>
+      <br>
+      
+    </div>
+    
+    <!-- Javascript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="scripts/crear-curso.js"></script>
+</body>
+</html>
